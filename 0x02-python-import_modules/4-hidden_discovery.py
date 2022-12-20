@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 import hidden_4
 
-
 def main():
-    l = dir(hidden_4)
-    for i in range(len(l)):
+    le = dir(hidden_4)
+    for i in range(len(le)):
         if(l[i][0] != '_'):
-            print("{}".format(l[i]))
+            print("{}".format(le[i]))
 
 if __name__ == "__main__":
     main()
